@@ -1,0 +1,144 @@
+* {font-family: 'Roboto', sans-serif;}
+body {margin: 0px;}
+.taskbar {
+    background-color: #333;
+    padding: 1px;
+}
+.logo {text-align: center;}
+h1 {color: white;}
+b{color: yellowgreen;}
+.heading {
+    background-image: url("https://edgeledger.netlify.app/image_resources/architecture-bird-s-eye-view-buildings-2096698%20(1).jpg");
+    padding: 200px 0px;
+    text-align: center;
+    font-size: 40px;
+    line-height: 1.1;
+    margin-bottom: 0px;
+}
+#dummy-text-1{
+    color: white;
+    font-size: 15px;
+    line-height: 20px;
+    margin: 0px 5px;
+}
+#links {text-align: center;}
+#links a{
+    text-decoration: none;
+    color: white;
+    padding: 20px 50px;
+}
+#links a:hover{background-color: yellowgreen;}
+button {
+    background-color: yellowgreen;
+    border: none;
+    border-radius: 5px;
+    padding: 0px 100px;
+}
+.read {color: white;}
+.black {color: black;}
+#what {
+    background-color: white;
+    margin-top: 0px;
+}
+.infos {
+    padding: 0px 40px;
+    width: 100%;
+    height: 100px;
+}
+.head {
+    text-align: center;
+    font-size: 32px;
+}
+.icon {
+    background-color: yellowgreen;
+    margin: 0px 20px;
+    font-size: x-large;
+    border-radius: 100%;
+    padding: 15px;
+}
+.who {background-color: #333;}
+.head2 {
+    text-align: left;
+    margin-top: 0px;
+}
+li {
+    border-bottom: 3px dotted #444;
+    color: white;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+li::marker {color: #333;}
+#who {display: flex;}
+div#image {
+    background-image: url("https://edgeledger.netlify.app/image_resources/people.jpg");
+    background-size: 640px 460px;
+}
+#information {
+    text-align: left;
+    color: white;
+}
+div#information{margin: 20px;}
+#who div{flex: 1;}
+#clients {background-color: white;}
+img {
+    width: 130px;
+    height: 130px;
+    margin: 20px 40px;
+    flex-direction: row;
+    justify-content: center;
+}
+#clientlogo {
+    display: flex;
+    justify-content: center;
+}
+.form {
+    background-color: yellowgreen;
+    padding: 10px 20px;
+}
+.maps {background-color: #f4f4f4;}
+.p2 {
+    color: black;
+    text-align: center;
+    padding: 200px 10px;
+}
+.contactus {
+    font-size: 32px;
+}
+#contact {display: flex;}
+#contact div {flex: 1;}
+.form {padding: 10px;}
+label {
+    color: white;
+    display: inline-block;
+    text-indent: 10px;
+    text-align: left;
+}
+input[type="text"], input[type="email"], input[type="tel"], textarea{
+    display: flex;
+    width: 400px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 3px;
+}
+textarea {font-family: monospace;}
+input[type="submit"] {
+    width: 400px;
+    margin-left: 10px;
+    border: none;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+    font-size: 1em;
+}
+footer {background-color: #333;}
+.footer {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+}
